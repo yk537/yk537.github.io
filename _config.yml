@@ -1,4 +1,4 @@
-title: "Andy Kim website"
+title: "Andy Kim"
 author: "Andy Kim"
 description: "Andy Kim's website"
 permalink: /:title/
@@ -17,14 +17,16 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "/andyCV.pdf", title: "CV", icon: home}
-  - {title: "lab", url: "http://lab.edu"}
+  - {file: "index.md", icon: home}
+  - {file: "andyCV.pdf", title: "CV"}
+  - {title: "Lab", url: "http://cornell.edu"}
   - {title: "Blog", file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yk537@cornell.edu"}
   - {title: Github, icon: github, url: "https://github.com/yk537"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com"}
+  - {title: YouTube, icon: youtube, url: "https://youtube.com"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
